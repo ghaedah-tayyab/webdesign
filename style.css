@@ -1,0 +1,10 @@
+body {
+    background-color: grey;
+}
+:any-link{
+    color:rgb(61, 61, 135);
+    
+}
+.link{
+    size: 100;
+}

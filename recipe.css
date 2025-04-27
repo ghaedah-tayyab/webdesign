@@ -1,0 +1,24 @@
+/* recipe */
+body{
+    background-color: rgb(209, 209, 72);
+    line-height: 15px;
+    text-align: left;
+}
+#Recipe{
+    text-align: center;
+}
+
+#Recipe_row{
+    display: flex;
+   
+}
+#Recipe_col{
+    border: 5px solid;
+    margin: 20px;
+    border-color: red;
+    width: 1000px;
+}
+#image{
+    height: 300px;
+}
+

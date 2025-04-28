@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(photo.avif);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.container{
+    position: relative;
+    background-color: rgb(239, 147, 162);
+    width: 800px;
+    color: whitesmoke;
+    
+
+}
+.container h2{
+    background-color: rgb(224, 84, 108);
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.container ul{
+    position: relative;
+    padding: 10px 20px;
+}
+.container ul li{
+    position: relative;
+    padding: 15px 0;
+    list-style: none;
+    border: 1px solid rgb(223, 76, 101) ;
+}
+.container ul li label{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+

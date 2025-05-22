@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #a2a2a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: rgb(227, 227, 227);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 280px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  .img {
+    width: 120px;   
+    height: 120px;     
+    object-fit: cover;    
+    border-radius: 50%;    
+    display: block;
+    margin: 0 auto 1rem;  
+  }
+  
+  h1 {
+    margin: 0.5rem 0 0.2rem;
+    font-size: 1.4rem;
+  }
+  
+  .title {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .socials a {
+    display: inline-block;
+    margin: 0.4rem;
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .socials a:hover {
+    color: #012f48;
+   
+  }

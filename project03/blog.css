@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1f26;
+    color: #fff;
+  }
+  
+  .blog-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #ccc;
+    margin-bottom: 40px;
+  }
+  
+  .highlight {
+    color: #8bc34a;
+    font-weight: bold;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  }
+  
+  
+  .learn-more-btn {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #ddd;
+  }
